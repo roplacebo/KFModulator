@@ -26,13 +26,13 @@ public:
     /* check, if modulation is running */
     bool isRunning();
 private:
-    unsigned long *kFrames;
-    int *kfValues;
-    bool loop;
-    bool running;
-    int nrOfKFrames;
-    unsigned long modDuration;
-    unsigned long startedAt;
-    unsigned long loopTime;
+    unsigned long *_kFrames;
+    int *_kfValues;
+    bool _loop;
+    bool _running;
+    int _nrOfKFrames;
+    unsigned long _modDuration;
+    unsigned long _startedAt;
+    unsigned long _loopTime;
 };
 #endif
